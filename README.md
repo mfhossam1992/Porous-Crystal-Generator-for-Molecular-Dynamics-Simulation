@@ -22,7 +22,7 @@ This Python code repository provides a tool for generating porous crystal struct
 
 1. Clone the repository:
 ```bash
-   git clone https://github.com/your-username/porous-crystal-generator.git
+   git clone https://github.com/mfhossam1992/porous-crystal-generator.git
 ```
 
 2. Install dependencies:
