@@ -22,7 +22,7 @@ This Python code repository provides a tool for generating porous crystal struct
 
 1. Clone the repository:
 ```bash
-   git clone https://github.com/mfhossam1992/porous-crystal-generator.git
+   git clone https://github.com/mfhossam1992/Porous-Crystal-Generator-for-Molecular-Dynamics-Simulation.git
 ```
 
 2. Install dependencies:
@@ -35,7 +35,7 @@ pip install -r requirements.txt
 1. Configure the parameters in the config.yml file to customize the generated porous structure.
 2. Run the main script:
 ```bash
-python porous_generator.py
+python GenPorousCrystal.py
 ```
 3. Follow the on-screen instructions to input any additional parameters and generate the porous crystal structure.
 4. The generated structure will be saved in the specified output file format (e.g., XYZ, PDB) in the output/ directory.
@@ -45,7 +45,7 @@ python porous_generator.py
 For a quick demo, run the following command:
 
 ```bash
-python porous_generator.py --demo
+python GenPorousCrystal.py --demo
 ```
 This will generate a sample porous crystal structure with default parameters.
 
@@ -60,6 +60,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Acknowledgments
 
 Special thanks to contributors who have participated in the development of this tool.
+Hossam Farag thanks Muhammad Abdelghany for support in code development.
+Hossam Farag also thanks Mahmoud Mahrous for helpful discussions.
 
 ## Contact
 
