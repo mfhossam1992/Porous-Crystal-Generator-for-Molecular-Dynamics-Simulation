@@ -32,8 +32,8 @@ pip install -r requirements.txt
 
 ## Usage
 
-1. Configure the parameters in the input.txt file to customize the generated porous structure.
-2. Make sure that GenPorousCrystal.py, constants.py, and input.txt are in the directory from which you run the code.
+1. Configure the parameters in the "input.txt" file to customize the generated porous structure.
+2. Make sure that "GenPorousCrystal.py", "constants.py", and "input.txt" are in the directory from which you run the code.
 3. Run the main script:
 ```bash
 python GenPorousCrystal.py
