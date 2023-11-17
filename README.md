@@ -9,9 +9,9 @@ This Python code repository provides a tool for generating porous crystal struct
 
 - **Additive Manufacturing Considerations:** Special attention is given to the specific requirements of additive manufacturing processes, ensuring that the generated structures are suitable for simulation and, if desired, subsequent physical fabrication.
 
-- **Configurability:** Users can easily configure the crystal structure, porosity levels, and other relevant parameters through a user-friendly interface.
+- **Configurability:** Users can easily configure the crystal structure, porosity levels, and other relevant parameters through a simple input text file.
 
-- **Output Formats:** The generated structures can be exported in common file formats used in molecular dynamics simulations, making them compatible with popular simulation software packages.
+- **Output Formats:** The generated structures can be exported in common file formats used in molecular dynamics simulations, making them compatible with popular simulation software packages. (Now only LAMMPS format is supported)
 
 ## Prerequisites
 
@@ -32,22 +32,22 @@ pip install -r requirements.txt
 
 ## Usage
 
-1. Configure the parameters in the config.yml file to customize the generated porous structure.
-2. Run the main script:
+1. Configure the parameters in the input.txt file to customize the generated porous structure.
+2. Make sure that GenPorousCrystal.py, constants.py, and input.txt are in the directory from which you run the code.
+3. Run the main script:
 ```bash
 python GenPorousCrystal.py
 ```
-3. Follow the on-screen instructions to input any additional parameters and generate the porous crystal structure.
-4. The generated structure will be saved in the specified output file format (e.g., XYZ, PDB) in the output/ directory.
+4. The generated structure will be saved in the specified output file format (now only LAMMPS format is supported) in the same run directory.
 
 ## Example
 
 For a quick demo, run the following command:
 
 ```bash
-python GenPorousCrystal.py --demo
+python GenPorousCrystal.py
 ```
-This will generate a sample porous crystal structure with default parameters.
+This will generate a sample porous crystal structure with parameters read from the input.txt file.
 
 ## Contributing
 
